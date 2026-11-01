@@ -1,0 +1,22 @@
+# dependências e builds
+node_modules/
+dist/
+build/
+
+# sistema e editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# chaves e segredos (nunca versionar)
+.env
+.env.*
+*.keystore
+*.jks
+*.pem
+
+# pacotes gerados para a loja
+*.aab
+*.apk
